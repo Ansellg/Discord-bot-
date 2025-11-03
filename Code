@@ -46,7 +46,7 @@ async def divide(ctx, a: int, b: int):
     result = a / b
     await ctx.send(result)
 
-#bot kirim gambar
+#Send images command, don't forget to make a a file with images inside
 @bot.command()
 async def send_meme(ctx):
     myfolder = os.listdir('images')
@@ -56,7 +56,7 @@ async def send_meme(ctx):
     await ctx.send('Berikut meme untukmu! :)')
     await ctx.send(file=file)
 
-#solusi buat polusi
+#solution for trash & polution
 # tips mengatasi polusi
 @bot.command()
 async def solution(ctx):
