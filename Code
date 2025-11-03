@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from passgen import gen_pass
+from passgen import gen_pass #Don't forget to make the files.
 import os, random
 
 intents = discord.Intents.default()
